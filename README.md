@@ -32,6 +32,12 @@ cc -Wall `pkg-config --cflags jbig2dec` -fPIC -shared -o libjbig2codec.so decode
 
 ## How to use
 
+### how to install requirements on Ubuntu16.04(by HJ)
+
+-  `pip3 install pypdf2`
+- `sudo apt install mupdf-tools`
+- 安装这两个依赖就行了
+
 ### 环境和依赖
 
 - Python 3.3+
